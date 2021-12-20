@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: protocol-gateway-service
+
+# metric模块指标统计cron表达式，用于控制统计指标的周期
+metric:
+  cron: 0 * * * * ?
